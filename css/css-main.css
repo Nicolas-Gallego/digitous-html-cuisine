@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "oswald";
+    src: url(../fonts/Oswald/static/Oswald-Light.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "courgette";
+    src: url(../fonts/Courgette/Courgette-Regular.ttf);
+    font-weight: normal;
+}
+
+.navbar-brand {
+    font-family: courgette;
+    font-size: 1.5rem;
+}
+
+#navbarNav {
+    font-family: oswald;
+}
+
+.navbar-toggler {
+    font-size: 0.5rem;
+}
+
+.navbar {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.315);
+}
+
+.container-header {
+    background: url(../img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.logo-titre {
+    padding: 64px 32px 128px 32px;
+}
+
+.logo-white {
+    height: 50px;
+}
+
+.titre {
+    color: white;
+    text-align: center;
+    font-family: courgette;
+}
