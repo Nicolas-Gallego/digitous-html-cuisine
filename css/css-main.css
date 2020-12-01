@@ -45,3 +45,33 @@
     text-align: center;
     font-family: courgette;
 }
+
+.articles {
+    font-family: oswald;
+    text-align: center;
+    padding: 32px;
+}
+
+.titre-articles {
+    font-family: courgette;
+    padding-top: 16px;
+}
+
+h4 {
+    font-size: 1.40rem;
+}
+
+.texte-articles {
+    font-family: oswald;
+    padding-bottom: 16px;
+}
+
+.lien-autres {
+    font-family: oswald;
+    padding-top: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
