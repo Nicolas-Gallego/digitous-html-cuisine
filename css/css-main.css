@@ -10,6 +10,11 @@
     font-weight: normal;
 }
 
+h1 h2 h3 h4 h5 h6 {
+    padding: 0;
+    margin: 0;
+}
+
 .navbar-brand {
     font-family: courgette;
     font-size: 1.5rem;
@@ -34,6 +39,10 @@
 .container-header {
     background: url(../img/header\ -\ copie.jpg) no-repeat center;
     background-size: cover;
+}
+
+.nav-link {
+    text-decoration: none;
 }
 
 .logo-titre {
@@ -126,6 +135,7 @@ form {
 #icones-liens {
     display: inline;
     padding-bottom: 24px;
+    text-decoration: none;
 }
 
 .inline {
@@ -140,9 +150,15 @@ form {
         padding-top: 0px;
     }
     h4 {
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
     .texte-articles {
         font-size: 0.8rem;
+    }
+    .archives {
+        padding-top: 24px;
+    }
+    .newsletter {
+        padding-top: 24px;
     }
 }
